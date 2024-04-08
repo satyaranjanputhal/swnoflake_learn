@@ -1,0 +1,19 @@
+snowsql -a kv22736.ca-central-1.aws -u madhumitaputhal1986
+
+snowsql -a YZQGQTA-BV86062 -u madhumitaputhal1986
+
+
+https://community.snowflake.com/s/educational-services
+
+======
+https://ny02754.ca-central-1.aws.snowflakecomputing.com
+
+SELECT LOWER(CONCAT('SNOWSQL -A '
+                  , LOWER(CURRENT_ACCOUNT())
+                  , '.', LOWER(REPLACE(CURRENT_REGION(), 'AWS_', ''))
+                  , '.AWS -U '
+                  , LOWER(CURRENT_USER())
+                   )
+            );
+
+            select current_account(),current_user(),current_region()
